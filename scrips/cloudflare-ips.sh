@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cloudFlareConf="/etc/nginx/cloudflare.conf"
+cloudFlareConf="/etc/nginx/conf.d/cloudflare.conf"
 IPV4=$(curl -s "https://www.cloudflare.com/ips-v4")
 IPV6=$(curl -s "https://www.cloudflare.com/ips-v6")
 DATE="$(date)"
